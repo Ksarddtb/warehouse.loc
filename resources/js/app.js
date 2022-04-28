@@ -1,7 +1,5 @@
 require('./bootstrap');
 
-import Alpine from 'alpinejs';
-
-window.Alpine = Alpine;
-
-Alpine.start();
+// custom select2
+$('#kt_datatable_search_status').select2();
+$('#kt_datatable_search_type').select2();

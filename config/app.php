@@ -185,7 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        App\Providers\MetronicServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -212,6 +212,8 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
+        'Metronic' => App\Classes\Theme\Metronic::class,
+        'Menu' => App\Classes\Theme\Menu::class,
     ])->toArray(),
 
 ];
