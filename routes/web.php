@@ -33,3 +33,10 @@ Route::get('/icons/svg',  [PagesController::class,'svg']);
 
 // Quick search dummy route to display html elements in search dropdown (header search)
 Route::get('/quick-search',  [PagesController::class,'quickSearch'])->name('quick-search');
+
+
+Route::prefix('config')->group(function(){
+    route::get('province',[\App\Http\Controllers\Config\ProvinceController::class,'index'])->name('config.province');
+});
+
+

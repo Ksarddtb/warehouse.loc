@@ -19,13 +19,13 @@
 
                 <div class="content {{ Metronic::printClasses('content', false) }} d-flex flex-column flex-column-fluid" id="kt_content">
 
-                    @if(config('layout.subheader.display'))
+                    {{-- @if(config('layout.subheader.display'))
                         @if(array_key_exists(config('layout.subheader.layout'), config('layout.subheader.layouts')))
                             @include('layout.partials.subheader._'.config('layout.subheader.layout'))
                         @else
                             @include('layout.partials.subheader._'.array_key_first(config('layout.subheader.layouts')))
                         @endif
-                    @endif
+                    @endif --}}
 
                     @include('layout.base._content')
                 </div>

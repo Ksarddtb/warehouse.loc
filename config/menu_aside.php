@@ -104,84 +104,18 @@ return [
             'page' => 'custom/pages/wizard/wizard-4',
         ],
         [
-            'title' => 'Cards',
+            'title' => 'Обший Настройки',
             'icon' => 'media/svg/icons/Layout/Layout-arrange.svg',
             'bullet' => 'dot',
             'root' => true,
-            'submenu' => [
-                [
-                    'title' => 'General Cards',
-                    'page' => 'features/cards/general'
-                ],
-                [
-                    'title' => 'Stacked Cards',
-                    'page' => 'features/cards/stacked'
-                ],
-                [
-                    'title' => 'Tabbed Cards',
-                    'page' => 'features/cards/tabbed'
-                ],
-                [
-                    'title' => 'Draggable Cards',
-                    'page' => 'features/cards/draggable'
-                ],
-                [
-                    'title' => 'Cards Tools',
-                    'page' => 'features/cards/tools'
-                ],
-                [
-                    'title' => 'Sticky Cards',
-                    'page' => 'features/cards/sticky'
-                ],
-                [
-                    'title' => 'Stretched Cards',
-                    'page' => 'features/cards/stretched'
-                ]
-            ]
+            'page' => 'config/province',
         ],
         [
-            'title' => 'Widgets',
+            'title' => 'Переводы',
             'icon' => 'media/svg/icons/Devices/Diagnostics.svg',
             'root' => true,
             'bullet' => 'dot',
-            'submenu' => [
-                [
-                    'title' => 'Lists',
-                    'page' => 'features/widgets/lists'
-                ],
-                [
-                    'title' => 'Stats',
-                    'page' => 'features/widgets/stats'
-                ],
-                [
-                    'title' => 'Charts',
-                    'page' => 'features/widgets/charts'
-                ],
-                [
-                    'title' => 'Mixed',
-                    'page' => 'features/widgets/mixed',
-                ],
-                [
-                    'title' => 'Tiles',
-                    'page' => 'features/widgets/tiles',
-                ],
-                [
-                    'title' => 'Engage',
-                    'page' => 'features/widgets/engage'
-                ],
-                [
-                    'title' => 'Base Tables',
-                    'page' => 'features/widgets/base-tables',
-                ],
-                [
-                    'title' => 'Advance Tables',
-                    'page' => 'features/widgets/advance-tables',
-                ],
-                [
-                    'title' => 'Forms',
-                    'page' => 'features/widgets/forms',
-                ]
-            ]
+            'page' => 'languages'
         ],
         [
             'title' => 'Icons',
